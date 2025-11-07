@@ -81,6 +81,14 @@ curl https://raw.githubusercontent.com/naeminhye/bash-utils/main/boilerplate.sh 
 
 > ⚠️ Note: PowerShell does **not support `<( … )`**, so use the pipe (`| bash`) syntax instead.
 
+If you're using **Git Bash**, use this:
+```bash
+Use Git Bash
+curl -s https://raw.githubusercontent.com/naeminhye/bash-utils/main/boilerplate.sh | bash -s my-app
+```
+
+*Change `my-app` into any name you want.*
+
 ---
 
 #### 🧩 Result
